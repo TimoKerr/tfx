@@ -117,6 +117,7 @@ def change_working_dir(working_dir: str):
   """
 
   old_dir = os.getcwd()
+  print("DO NOT SUBMIT, I'm here changing working_dir to: ", working_dir)
   os.chdir(working_dir)
 
   yield old_dir
