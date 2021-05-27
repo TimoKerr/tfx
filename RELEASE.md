@@ -31,6 +31,10 @@
 
 ## Breaking Changes
 
+*  Removed unneccessary default values for required component input Channels.
+*  Deprecated custom_executor_spec for Trainer and Pusher, ai platform provides
+   its own Trainer and Pusher.
+
 ### For Pipeline Authors
 
 *   N/A
